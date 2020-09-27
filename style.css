@@ -1,0 +1,125 @@
+.container {
+    background-image: url("assets/office.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 60rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #2C3E50;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header__logo {
+    margin-left: 1rem;
+    font-style: bold;
+}
+
+.header__nav_list {
+    display: flex;
+
+
+}
+
+.header__nav_listItems {
+    display: inline;
+    list-style-type: none;
+    margin: 1rem;
+
+}
+
+.about {
+    margin-left: 1rem;
+
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+
+
+
+
+}
+
+.projects__column_title {
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.projects_column_figure {
+    text-align: center;
+
+
+}
+
+.projects__column_image {
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+
+
+
+}
+
+
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.education__list {
+    column-count: 3;
+
+}
+
+.education_title {
+    margin: 2rem auto;
+    padding: 10px;
+}
+
+.skills__list {
+    column-count: 3;
+}
+
+.skills_title {
+    margin: 2rem auto;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+    text-align: initial;
+}
